@@ -639,6 +639,13 @@ section {
        padding: 0 20px;
 }
 
+.contato-container {
+       max-width: 900px;
+       margin: 0 auto;
+       display: flex;
+       gap: 20px;
+}
+
 #contato {
        scroll-margin-top: 200px;
        /* altura do seu menu */
