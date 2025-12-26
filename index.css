@@ -483,6 +483,14 @@ footer>p {
        flex-direction: column;
 }
 
+.cursosContainer {
+       max-width: 900px;
+       margin: 0 auto;
+       display: flex;
+       gap: 20px;
+       flex-wrap: wrap;
+}
+
 #noticias {
        scroll-margin-top: 200px;
        /* altura do seu menu */
@@ -851,6 +859,9 @@ p {
               flex-direction: column;
               gap: 12px;
               padding: 15px;
+              margin-right: 40px;
+              align-items: center;
+              justify-content: center;
        }
 
        .title {

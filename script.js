@@ -1,5 +1,7 @@
 function mostrarCursos() {
-  window.location.href = "index1.html";
+  const secao = document.getElementById("cursos-detalhados");
+  secao.style.display = "block";
+  secao.scrollIntoView({ behavior: "smooth" });
 }
 
 const form = document.getElementById("contatoForm");
