@@ -476,15 +476,16 @@ footer>p {
 /* Estilos da Seção Notícias */
 
 .container {
-       max-width: 900px;
+       max-width: 1200px;
        margin: 0 auto;
        display: flex;
        gap: 20px;
+       padding: 0 24px;
        flex-direction: column;
 }
 
 .cursosContainer {
-       max-width: 900px;
+       max-width: 1200px;
        margin: 0 auto;
        display: flex;
        gap: 20px;
@@ -691,10 +692,10 @@ section {
 
 /* ===== CONTAINER ===== */
 .contato .container {
-       display: flex;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
        gap: 40px;
-       flex-wrap: wrap;
-       align-items: center;
+       align-items: start;
 }
 
 /* ===== INFO ===== */
@@ -916,7 +917,7 @@ p {
               align-items: center;
        }
 
-       .about-content{
+       .about-content {
               justify-content: center;
        }
 
