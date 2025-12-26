@@ -765,6 +765,12 @@ section {
        section {
               padding: 60px 16px;
        }
+
+       .cursos-detalhados {
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+       }
 }
 
 @media (max-width: 768px) {
