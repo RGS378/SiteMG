@@ -21,6 +21,8 @@
        --cinza-borda: #E5E5E5;
 }
 
+/* Estilos Globais */
+
 .hero {
        font-family: Verdana, Geneva, Tahoma, sans-serif;
        line-height: 1.5em;
@@ -30,6 +32,8 @@
        position: relative;
        margin-top: 0;
 }
+
+/* Estilos do Header e Navegação */
 
 header {
        background-color: var(--verde-principal);
@@ -71,6 +75,7 @@ header {
        text-decoration: underline;
 }
 
+/* Estilos da Seção Hero */
 .hero-content {
        padding-top: 150px;
        text-align: center;
@@ -87,6 +92,8 @@ header {
        margin-top: 30px;
        margin-bottom: 30px;
 }
+
+/* Estilos do Botão de Chamada para Ação */
 
 .button-click {
        display: inline-block;
@@ -136,6 +143,8 @@ header {
               transform: translateX(-50%) translateY(-10px);
        }
 }
+
+/* Estilos da Seção About Us */
 
 .about-content {
        padding: 80px 10%;
@@ -353,6 +362,8 @@ header {
        line-height: 1.6em;
 }
 
+/* Estilos do Footer */
+
 footer {
        background-color: var(--verde-principal);
        padding: 20px;
@@ -363,6 +374,7 @@ footer>p {
        color: white;
 }
 
+/* Estilos dos Cards */
 .card {
        background: #fff;
        border-radius: 12px;
@@ -408,6 +420,8 @@ footer>p {
               text-align: center;
        }
 }
+
+/* Estilos da Seção Notícias */
 
 .container {
        max-width: 900px;
@@ -511,6 +525,7 @@ h1 {
        color: #555;
 }
 
+/* Estilos da Seção Galeria */
 section {
        min-height: 80vh;
        padding: 80px 20px;
@@ -577,6 +592,7 @@ section {
        background: linear-gradient(135deg, #14b8a6, #0f766e);
 }
 
+/* Estilos da Seção Contato */
 .contato {
        max-width: 1000px;
        margin: 80px auto;
