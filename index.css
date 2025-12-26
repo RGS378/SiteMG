@@ -82,7 +82,8 @@ header {
 }
 
 #inicio {
-  scroll-margin-top: 100px; /* altura do seu menu */
+       scroll-margin-top: 100px;
+       /* altura do seu menu */
 }
 
 .hero-content h1 {
@@ -182,7 +183,8 @@ header {
 }
 
 #our-courses {
-  scroll-margin-top: 100px; /* altura do seu menu */
+       scroll-margin-top: 100px;
+       /* altura do seu menu */
 }
 
 .our-courses h3 {
@@ -431,6 +433,23 @@ footer>p {
        }
 }
 
+.btn-ver-mais {
+       background-color: #2e8b1f;
+       color: white;
+       border: none;
+       padding: 14px 35px;
+       font-size: 16px;
+       border-radius: 6px;
+       cursor: pointer;
+       transition: background 0.3s;
+       display: block;
+       margin: 40px auto;
+}
+
+.btn-ver-mais:hover {
+       background-color: #256f18;
+}
+
 /* Estilos da Seção Notícias */
 
 .container {
@@ -438,10 +457,12 @@ footer>p {
        margin: 0 auto;
        display: flex;
        gap: 20px;
+       flex-direction: column;
 }
 
 #noticias {
-  scroll-margin-top: 200px; /* altura do seu menu */
+       scroll-margin-top: 200px;
+       /* altura do seu menu */
 }
 
 h1 {
@@ -547,7 +568,8 @@ section {
 }
 
 #galeria {
-  scroll-margin-top: 200px; /* altura do seu menu */
+       scroll-margin-top: 200px;
+       /* altura do seu menu */
 }
 
 .galeria {
@@ -618,7 +640,8 @@ section {
 }
 
 #contato {
-  scroll-margin-top: 200px; /* altura do seu menu */
+       scroll-margin-top: 200px;
+       /* altura do seu menu */
 }
 
 .contato h1 {

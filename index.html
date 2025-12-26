@@ -74,9 +74,11 @@
                             </div>
                      </div>
               </div>
+
+              <button class="btn-ver-mais" onclick="mostrarCursos()"> Ver mais sobre os cursos </button>
        </section>
 
-       <section>
+       <section id="cursos-detalhados">
               <h1>Nossos Cursos Técnicos</h1>
 
               <div class="container">
@@ -157,7 +159,6 @@
                                    </button>
                             </div>
                      </div>
-
               </div>
        </section>
 
@@ -244,6 +245,12 @@
                      botao.innerHTML = descricao.classList.contains("ativa")
                             ? "Mostrar menos ←"
                             : "Saiba mais →";
+              }
+
+              function mostrarCursos() {
+                     const secao = document.getElementById("cursos-detalhados");
+                     secao.style.display = "block";
+                     secao.scrollIntoView({ behavior: "smooth" });
               }
        </script>
 </body>
