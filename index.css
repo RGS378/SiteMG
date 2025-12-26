@@ -81,6 +81,10 @@ header {
        text-align: center;
 }
 
+#inicio {
+  scroll-margin-top: 100px; /* altura do seu menu */
+}
+
 .hero-content h1 {
        font-size: 3.7em;
        line-height: 1.2em;
@@ -169,10 +173,16 @@ header {
        text-align: justify;
 }
 
+/* Estilos da Seção Our Courses */
+
 .our-courses {
        background-color: #F5F5F5;
        padding: 80px 10%;
        text-align: center;
+}
+
+#our-courses {
+  scroll-margin-top: 100px; /* altura do seu menu */
 }
 
 .our-courses h3 {
@@ -430,6 +440,10 @@ footer>p {
        gap: 20px;
 }
 
+#noticias {
+  scroll-margin-top: 200px; /* altura do seu menu */
+}
+
 h1 {
        text-align: center;
        color: #2e7d32;
@@ -532,6 +546,10 @@ section {
        margin-top: 50px;
 }
 
+#galeria {
+  scroll-margin-top: 200px; /* altura do seu menu */
+}
+
 .galeria {
        max-width: 1000px;
        margin: 80px auto;
@@ -592,26 +610,33 @@ section {
        background: linear-gradient(135deg, #14b8a6, #0f766e);
 }
 
-/* Estilos da Seção Contato */
+/* ===== SEÇÃO CONTATO ===== */
 .contato {
-       max-width: 1000px;
+       max-width: 1100px;
        margin: 80px auto;
        padding: 0 20px;
+}
+
+#contato {
+  scroll-margin-top: 200px; /* altura do seu menu */
 }
 
 .contato h1 {
        text-align: center;
        color: #2e7d32;
-       margin-bottom: 50px;
+       margin-bottom: 40px;
        font-size: 36px;
 }
 
-.container {
+/* ===== CONTAINER ===== */
+.contato .container {
        display: flex;
        gap: 40px;
        flex-wrap: wrap;
+       align-items: flex-start;
 }
 
+/* ===== INFO ===== */
 .info {
        flex: 1;
        min-width: 280px;
@@ -623,6 +648,7 @@ section {
        line-height: 1.6;
 }
 
+/* ===== FORMULÁRIO ===== */
 .form {
        flex: 1;
        min-width: 280px;
@@ -640,6 +666,7 @@ section {
        border-radius: 8px;
        border: 1px solid #ccc;
        font-size: 15px;
+       outline: none;
 }
 
 .form textarea {
@@ -657,8 +684,16 @@ section {
        font-size: 16px;
        font-weight: bold;
        cursor: pointer;
+       transition: background 0.3s ease;
 }
 
 .form button:hover {
        background: #256428;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+       .contato .container {
+              flex-direction: column;
+       }
 }
