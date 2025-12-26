@@ -954,3 +954,17 @@ p {
               padding: 10px;
        }
 }
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .container {
+    max-width: 1300px;
+  }
+}
