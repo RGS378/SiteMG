@@ -836,3 +836,103 @@ h2 {
 p {
        font-size: clamp(14px, 3.5vw, 16px);
 }
+
+/* ===== MOBILE (até 768px) ===== */
+@media (max-width: 768px) {
+
+       /* HEADER / MENU */
+       .nav-bar {
+              flex-direction: column;
+              gap: 12px;
+              padding: 15px;
+       }
+
+       .title {
+              font-size: 18px;
+              text-align: center;
+       }
+
+       .links {
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 10px;
+       }
+
+       .links a {
+              font-size: 14px;
+       }
+
+       /* HERO */
+       .hero-content h1 {
+              font-size: 26px;
+              line-height: 1.2;
+              text-align: center;
+       }
+
+       .hero-content p {
+              font-size: 16px;
+              text-align: center;
+       }
+
+       /* SEÇÕES GERAIS */
+       section {
+              padding: 60px 16px;
+       }
+
+       h1 {
+              font-size: 28px;
+       }
+
+       /* CARDS / CURSOS / NOTÍCIAS */
+       .container,
+       .cards,
+       .card-content,
+       .about-content,
+       .our-courses,
+       .items-courses,
+       .grid {
+              grid-template-columns: 1fr;
+              flex-direction: column;
+       }
+
+       .items-courses {
+              align-items: center;
+       }
+
+       .about-content{
+              justify-content: center;
+       }
+
+       .card {
+              width: 100%;
+       }
+
+       /* CONTATO */
+       .contato-container {
+              flex-direction: column;
+              gap: 30px;
+              align-items: center;
+       }
+
+       .form {
+              padding: 20px;
+              flex-direction: column;
+       }
+
+       .form input,
+       .form textarea {
+              font-size: 14px;
+       }
+
+       .form button {
+              font-size: 15px;
+              padding: 12px;
+       }
+
+       /* FOOTER */
+       footer p {
+              font-size: 13px;
+              text-align: center;
+              padding: 10px;
+       }
+}
