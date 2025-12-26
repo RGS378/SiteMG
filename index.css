@@ -21,6 +21,10 @@
        --cinza-borda: #E5E5E5;
 }
 
+html {
+       scroll-behavior: smooth;
+}
+
 /* Estilos Globais */
 
 .hero {
@@ -71,8 +75,27 @@ header {
        font-weight: 500;
 }
 
-.links a:hover {
-       text-decoration: underline;
+nav a {
+       color: white;
+       text-decoration: none;
+       margin-left: 20px;
+       font-size: 14px;
+       position: relative;
+}
+
+nav a::after {
+       content: "";
+       position: absolute;
+       left: 0;
+       bottom: -5px;
+       width: 0;
+       height: 2px;
+       background: white;
+       transition: width 0.3s;
+}
+
+nav a:hover::after {
+       width: 100%;
 }
 
 /* Estilos da Seção Hero */
