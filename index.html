@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>EEEP COMENDADOR MIGUEL GURGEL</title>
+       <link rel="stylesheet" href="/index.css">
+       <script src="https://kit.fontawesome.com/02c671b62d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+       <header class="menu-container">
+              <nav class="nav-bar">
+                     <h2 class="title">EEEP COMENDADOR MIGUEL GURGEL</h2>
+
+                     <ul class="links">
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">A Escola</a></li>
+                            <li><a href="#cursos">Cursos</a></li>
+                            <li><a href="#noticias">Notícias</a></li>
+                            <li><a href="#galeria">Galeria</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                     </ul>
+              </nav>
+       </header>
+
+       <section class="hero" id="inicio">
+
+              <main class="hero-content">
+                     <h1>Bem-vindo à EEEP Comendador<br> Miguel Gurgel</h1>
+                     <p>Educação Técnica de Qualidade</p>
+                     <a href="#sobre" class="button-click">Saiba mais</a>
+              </main>
+
+              <div class="arrow-container">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="arrow-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                   d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+                     </svg>
+              </div>
+       </section>
+
+       <section class="about" id="sobre">
+              <div class="about-content">
+                     <h3 class="title">Quem Somos?</h3>
+                     <p>A EEEP Comendador Miguel Gurgel é uma instituição de ensino técnico que oferece ao seus alunos
+                            uma formação de qualidade, preparando-os para o mercado de trabalho e para a educação
+                            superior</p>
+              </div>
+              <div class="our-courses" id="cursos">
+                     <h3>Nossos Cursos</h3>
+                     <div class="items-courses">
+                            <div class="ctb">
+                                   <i class="fa-solid fa-calculator" id="icone-ctb"></i>
+                                   <h4>Técnico em Contabilidade</h4>
+                                   <p>Formação completa para atuar na área contábil e financeira.</p>
+                            </div>
+                            <div class="ds">
+                                   <i class="fa-solid fa-code" id="icon-ds"></i>
+                                   <h4>Técnico em Desenvolvimento de Sistemas</h4>
+                                   <p>Aprenda a criar aplicações e sistemas computacionais.</p>
+                            </div>
+                            <div class="multi">
+                                   <i class="fa-solid fa-video" id="multi-icon"></i>
+                                   <h4>Técnico em Multimídia</h4>
+                                   <p>Desenvolva projetos audiovisuais e digitais criativos.</p>
+                            </div>
+                            <div class="rdc">
+                                   <i class="fa-solid fa-globe" id="rdc-icon"></i>
+                                   <h4>Técnico em Redes de Computadores</h4>
+                                   <p>Especialização em infrastrutura e segurança de redes.</p>
+                            </div>
+                     </div>
+              </div>
+       </section>
+
+       <section>
+              <h1>Nossos Cursos Técnicos</h1>
+
+              <div class="container">
+
+                     <div class="card">
+                            <div class="icon">
+                                   <i class="fa-solid fa-calculator"></i>
+                            </div>
+
+                            <div class="card-content">
+                                   <h2>Técnico em Contabilidade</h2>
+
+                                   <p class="descricao">
+                                          Forma profissionais para atuar no controle financeiro, registros contábeis,
+                                          organização de documentos fiscais e apoio à gestão administrativa.
+                                   </p>
+
+                                   <button class="btn-saiba" onclick="toggleDescricao(this)">
+                                          Saiba mais →
+                                   </button>
+                            </div>
+                     </div>
+
+                     <div class="card">
+                            <div class="icon">
+                                   <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="card-content">
+                                   <h2>Técnico em Desenvolvimento de Sistemas</h2>
+
+                                   <p class="descricao">
+                                          Prepara o aluno para criar, programar e manter sistemas e aplicações,
+                                          envolvendo lógica de programação, bancos de dados e tecnologias web.
+                                   </p>
+
+                                   <button class="btn-saiba" onclick="toggleDescricao(this)">
+                                          Saiba mais →
+                                   </button>
+                            </div>
+                     </div>
+
+                     <div class="card">
+                            <div class="icon">
+                                   <i class="fa-solid fa-video"></i>
+                            </div>
+
+                            <div class="card-content">
+                                   <h2>Técnico em Multimídia</h2>
+
+                                   <p class="descricao">
+                                          Forma profissionais criativos para produção de conteúdos visuais e
+                                          audiovisuais,
+                                          com foco em design gráfico, edição, animação e produção digital.
+                                   </p>
+
+                                   <button class="btn-saiba" onclick="toggleDescricao(this)">
+                                          Saiba mais →
+                                   </button>
+                            </div>
+                     </div>
+
+                     <div class="card">
+                            <div class="icon">
+                                   <i class="fa-solid fa-network-wired"></i>
+                            </div>
+
+                            <div class="card-content">
+                                   <h2>Técnico em Redes de Computadores</h2>
+
+                                   <p class="descricao">
+                                          Capacita para instalar, configurar e manter redes de computadores,
+                                          com foco em infraestrutura, segurança da informação e suporte técnico.
+                                   </p>
+
+                                   <button class="btn-saiba" onclick="toggleDescricao(this)">
+                                          Saiba mais →
+                                   </button>
+                            </div>
+                     </div>
+
+              </div>
+       </section>
+
+       <section class="noticias" id="noticias">
+              <h1>Notícias</h1>
+
+              <div class="cards">
+
+                     <div class="card">
+                            <div class="card-img green"></div>
+                            <div class="card-content">
+                                   <span>15 de Janeiro, 2024</span>
+                                   <h3>Abertura das Matrículas 2024</h3>
+                                   <p>Estão abertas as inscrições para o ano letivo de 2024.</p>
+                            </div>
+                     </div>
+
+                     <div class="card">
+                            <div class="card-img blue"></div>
+                            <div class="card-content">
+                                   <span>10 de Dezembro, 2023</span>
+                                   <h3>Alunos Conquistam Prêmio Regional</h3>
+                                   <p>Estudantes se destacam em competição de tecnologia.</p>
+                            </div>
+                     </div>
+
+                     <div class="card">
+                            <div class="card-img purple"></div>
+                            <div class="card-content">
+                                   <span>5 de Novembro, 2023</span>
+                                   <h3>Nova Parceria com Empresas</h3>
+                                   <p>Parcerias ampliam estágios e oportunidades.</p>
+                            </div>
+                     </div>
+
+              </div>
+       </section>
+
+       <section id="galeria" class="galeria">
+              <h1>Galeria</h1>
+
+              <div class="grid">
+                     <div class="box green">Instalações</div>
+                     <div class="box blue">Laboratórios</div>
+                     <div class="box purple">Eventos</div>
+                     <div class="box orange">Biblioteca</div>
+                     <div class="box pink">Atividades</div>
+                     <div class="box teal">Formatura</div>
+              </div>
+       </section>
+
+       <section class="contato" id="contato">
+              <h1>Contato</h1>
+
+              <div class="container">
+
+                     <div class="info">
+                            <p><strong>Endereço:</strong><br>Rua Exemplo, 123 - Centro</p>
+                            <p><strong>Telefone:</strong><br>(85) 3000-0000</p>
+                            <p><strong>Email:</strong><br>contato@eeepgurgel.edu.br</p>
+                            <p><strong>Horário:</strong><br>Seg a Sex: 7h às 17h</p>
+                     </div>
+
+                     <form class="form">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="E-mail">
+                            <textarea placeholder="Mensagem"></textarea>
+                            <button type="submit">Enviar Mensagem</button>
+                     </form>
+
+              </div>
+       </section>
+
+       <footer>
+              <p>&copy; 2024 EEEP Comendador Miguel Gurgel - Todos os direitos reservados</p>
+       </footer>
+
+       <script>
+              function toggleDescricao(botao) {
+                     const descricao = botao.previousElementSibling;
+
+                     descricao.classList.toggle("ativa");
+
+                     botao.innerHTML = descricao.classList.contains("ativa")
+                            ? "Mostrar menos ←"
+                            : "Saiba mais →";
+              }
+       </script>
+</body>
+
+</html>
