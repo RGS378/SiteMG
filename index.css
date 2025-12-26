@@ -750,3 +750,89 @@ section {
               flex-direction: column;
        }
 }
+
+/* Estilos Gerais */
+img {
+       max-width: 100%;
+       height: auto;
+}
+
+section {
+       padding: 80px 20px;
+}
+
+@media (max-width: 1024px) {
+       section {
+              padding: 60px 16px;
+       }
+}
+
+@media (max-width: 768px) {
+       section {
+              padding: 50px 14px;
+       }
+}
+
+@media (max-width: 480px) {
+       section {
+              padding: 40px 12px;
+       }
+}
+
+.nav-bar {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.links {
+       display: flex;
+       gap: 20px;
+}
+
+@media (max-width: 768px) {
+       .links {
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 12px;
+       }
+
+       .title {
+              font-size: 18px;
+              text-align: center;
+       }
+}
+
+.container,
+.cards,
+.grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+       gap: 25px;
+}
+
+@media (max-width: 768px) {
+       .contato .container {
+              flex-direction: column;
+       }
+
+       .form {
+              padding: 20px;
+       }
+
+       .form button {
+              font-size: 15px;
+       }
+}
+
+h1 {
+       font-size: clamp(24px, 5vw, 36px);
+}
+
+h2 {
+       font-size: clamp(20px, 4vw, 28px);
+}
+
+p {
+       font-size: clamp(14px, 3.5vw, 16px);
+}
