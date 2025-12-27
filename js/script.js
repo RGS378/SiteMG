@@ -1,8 +1,13 @@
+// ====== Mostrar seção de cursos ======= //
+
 function mostrarCursos() {
   const secao = document.getElementById("cursos-detalhados");
   secao.style.display = "block";
   secao.scrollIntoView({ behavior: "smooth" });
 }
+
+
+// ====== Formulário de contato ======= //
 
 const form = document.getElementById("contatoForm");
 
@@ -30,6 +35,9 @@ form.addEventListener("submit", function (e) {
   // limpa o formulário
   form.reset();
 });
+
+
+// ====== Botão Saiba Mais ======= //
 
 function toggleDescricao(botao) {
   const descricao = botao.previousElementSibling;
