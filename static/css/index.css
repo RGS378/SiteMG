@@ -495,6 +495,7 @@ footer>p {
 #noticias {
        scroll-margin-top: 200px;
        /* altura do seu menu */
+       min-height: 60.5vh;
 }
 
 h1 {
@@ -608,6 +609,7 @@ section {
        max-width: 1000px;
        margin: 80px auto;
        padding: 0 20px;
+       min-height: 30vh;
 }
 
 .galeria h1 {
@@ -681,6 +683,7 @@ section {
 #contato {
        scroll-margin-top: 200px;
        /* altura do seu menu */
+       min-height: 60.5vh;
 }
 
 .contato h1 {
